@@ -7,6 +7,8 @@
 
 // Формат выходных данных: программа должна вывести площадь круга радиуса R R R.
 
+// Решение 1:
+
 using System;
 
 public class MainClass
@@ -16,5 +18,20 @@ public class MainClass
             double R = Convert.ToDouble(Console.ReadLine());
             double p = 3.14;
             Console.WriteLine((Math.Pow(R, 2)) * p);
+    }
+}
+
+// Решение 2:
+
+using System;
+
+public class MainClass
+{
+    public static void Main()
+    {
+            double R = Convert.ToDouble(Console.ReadLine());
+            double p = 3.14;
+            double S = (Math.Pow(R, 2)) * p;
+            Console.WriteLine(S);
     }
 }
